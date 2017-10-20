@@ -2,11 +2,7 @@
   "name": "house-sim",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "main":"./server/index.js",
-=======
   "main": "./server/index",
->>>>>>> c6186efa9bf2e3aa48ce6b5445a427b9ac235487
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.18.2",
