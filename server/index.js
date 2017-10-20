@@ -1,6 +1,7 @@
 require("dotenv").config()
 
 const express=require('express'),
+<<<<<<< HEAD
       bodyParser=require('body-parser'),
       massive=require('massive'),
       session=require('express-session'),
@@ -33,6 +34,17 @@ app.get("/api/test", function(req, res) {
     })
 )})
 
+=======
+     bodyParser=require('body-parser'),
+     massive=require('massive'),
+     session=require('express-session'),
+     cors = require('cors'),
+     app=express(),
+     port=8080
+
+app.use(bodyParser.json());
+app.use(cors);
+>>>>>>> 30b0150823ceefda21135c8529294f40ae53e8aa
 
 // app.get("/api/:shelf", shelfcontrol.getBins)
 
