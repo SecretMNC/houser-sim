@@ -11,18 +11,19 @@ export default class Login extends Component {
     render() {
         return (
             <div className='logIn_body'>
+                <div className='home_logo'></div>
                 <div className='logIn_main'>
-                    <div>
-                        <h2>Username:</h2>
-                        <input />
+                    <div className='logIn_nested'>
+                        <h3>Username</h3>
+                        <input className='input_box' />
                     </div>
                     <div>
-                    <h2>Password:</h2>
-                    <input />
+                    <h3>Password</h3>
+                    <input className='input_box'/>
                     </div>
                     <div>
-                    <Link to='/dashboard'>  <button>Login</button></Link>
-                    <Link to='/dashboard'><button>Register</button></Link>
+                    <Link to='/dashboard'>  <button className='login_button'>Login</button></Link>
+                    <Link to='/dashboard'><button className='register_button'>Register</button></Link>
                     </div>
 
                 </div>
