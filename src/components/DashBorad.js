@@ -9,13 +9,19 @@ export default class DashBoard extends Component {
                 <NavBar />
                 <div className='dashboard_body'>
                     <Link to='/step1'> <button className='add_new_prop'>Add New Proterty </button></Link>
+                    <section>
+                        <h3>List properties with "desired rent" greater than:$</h3>
+                        <input placeholder='0' />
+                        <button>Filter</button>
+                        <button>Reset</button>
+                    </section>
+                    <section>
+
+                        <div className='separation_bar'></div>
+                        <h2>Home Listings</h2>
+                        <div className='home_info'></div>
+                    </section>
                 </div>
-                <section>
-                    <h3></h3>
-                    <input/>
-                    <button></button>
-                </section>
-                <section></section>
             </div>
         )
     }
