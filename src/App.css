@@ -6,7 +6,7 @@ body{
   position:fixed;
   font-family: 'open-sans';
 }
-/* this is where the login page css starts */
+/* LOGIN PAGE CSS BEGINS */
 .logIn_body{
   width:60%;
   height:1000px;
@@ -56,5 +56,29 @@ body{
   border: none;
 }
 
-/* this is where the login page css ends */
+/* LOGIN PAGE CSS ENDS */
+
+
+/* NAVBAR CSS BEGINS */
+
+
+/* NAVBAR CSS ENDS */
+
+/* DASHBOARD CSS BEGINS */
+
+
+
+
+/* DASHBOARD CSS ENDS */
+
+
+
+/* STEP1  CSS BEGINS */
+
+
+
+/* STEP1  CSS ENDS */
+
+
+
 
