@@ -5,7 +5,7 @@ import router from './router'
 class App extends Component {
   render() {
     return (
-  <div>
+  <div classname = "App">
     {router}
   </div>
     );
