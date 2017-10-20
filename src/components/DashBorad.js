@@ -10,6 +10,12 @@ export default class DashBoard extends Component {
                 <div className='dashboard_body'>
                     <Link to='/step1'> <button className='add_new_prop'>Add New Proterty </button></Link>
                 </div>
+                <section>
+                    <h3></h3>
+                    <input/>
+                    <button></button>
+                </section>
+                <section></section>
             </div>
         )
     }
