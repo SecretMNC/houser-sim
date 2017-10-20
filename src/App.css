@@ -5,8 +5,8 @@ body{
   margin:0;
   position:fixed;
   font-family: 'open-sans';
- 
 }
+/* this is where the login page css starts */
 .logIn_body{
   width:60%;
   height:1000px;
@@ -25,28 +25,36 @@ body{
 .logIn_main{
   width:100%;
   margin-left:120px;
-  margin-top:80px;
+  margin-top:50px;
 }
 
 .input_box{
   width:70%;
   height:30px;
   border:solid 1px #519872;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 .login_button{
-  width:150px;
+  width:140px;
   height:40px;
   background: #8aea92;
   margin:5px;
-  margin-left:130px;
+  margin-left:140px;
   color:black;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
 }
 .register_button{
-  width:150px;
+  width:140px;
   height:40px;
   background: #3b5249;
   margin-left:30px;
   color:white;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
 }
+
+/* this is where the login page css ends */
 
